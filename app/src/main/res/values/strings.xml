@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Abeo-SAP</string>
+    <string name="title_activity_main">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="search_hint">Search</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_process">Process</string>
+    <string name="loading_data">Loading Data....</string>
+    <string name="customer_info">Customer Info: </string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Today Visit</item>
+        <item>Customers</item>
+        <item>Open Sales Order</item>
+        <item>Item Master</item>
+        <item>Collection</item>
+        <item>Display Manager</item>
+        <item>Logout</item>
+        <item>Promotion</item>
+        <item>Today Sales</item>
+        <item>Aging Report</item>
+        <item>Inventory Report</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@android:drawable/ic_dialog_email</item>
+        <item>@android:drawable/ic_lock_power_off</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_today_visit_fragment">TodayVisitFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_today_visit_search_results">TodayVisitSearchResultsActivity</string>
+    <string name="title_activity_visit_process">Visit Process</string>
+    <string name="title_activity_sales_oder">Sales Order</string>
+    <string name="title_activity_visit_process_tab_first">VisitProcessTabFirstActivity</string>
+    <string name="title_activity_visit_process_tab_second">VisitProcessTabSecondActivity</string>
+    <string name="title_activity_visit_process_tab_third">VisitProcessTabThirdActivity</string>
+    <string name="title_activity_items_list">Items List</string>
+    <string name="title_activity_add_new_item">Edit Item</string>
+    <string name="title_activity_cash_sales">Cash Sales</string>
+    <string name="title_activity_edit_today_visit">Edit Today Visit </string>
+    <string name="title_activity_customer">Edit Customer</string>
+    <string name="title_activity_master_item_fragment">Master Item</string>
+    <string name="title_activity_display">Display KPI</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_stock_count">Stock Count</string>
+    <string name="title_activity_competitor">Add Competitor Item</string>
+    <string name="title_activity_master_item_detail">Master Item Detail</string>
+    <string name="title_activity_video_player">Video Player</string>
+    <string name="title_activity_inventory_fragment">InventoryFragment</string>
+
+</resources>

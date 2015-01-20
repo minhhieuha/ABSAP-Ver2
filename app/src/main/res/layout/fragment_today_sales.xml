@@ -1,0 +1,276 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TODAY SALES:" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#DADADC" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orders:" />
+
+            <TextView
+                android:id="@+id/textViewCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="125,000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="12 pcs" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view12323"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery:" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="40,000" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="24 pcs" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view1232"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A/R:" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="200,000" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="17 pcs" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view1232322"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView221312"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collection:" />
+
+            <TextView
+                android:id="@+id/textViewBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="600,000"
+                 />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="20 Invoices" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view1232222"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow4213"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView22321"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visited Outlet:" />
+
+            <TextView
+                android:id="@+id/textViewTerm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="20" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view23231"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow4213222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView22321333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non Visit:" />
+
+            <TextView
+                android:id="@+id/textViewTerm12313"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="10" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view232321"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow421344"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView223211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Outlet:" />
+
+            <TextView
+                android:id="@+id/textViewTerm11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="2" />
+        </TableRow>
+
+        <View
+            android:id="@+id/view122"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+
+        <TableRow
+            android:id="@+id/tableRow42132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:id="@+id/textView223213"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Stock OnHand:" />
+
+            <TextView
+                android:id="@+id/textViewTerm4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="100 pcs" />
+        </TableRow>
+        <View
+            android:id="@+id/view12222"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DADADC" />
+    </TableLayout>
+
+</LinearLayout>

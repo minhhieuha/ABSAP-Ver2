@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/dropdown_menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/itemTakePhoto"
+                android:showAsAction="always"
+                android:title="Take Photo"/>
+            <item
+                android:id="@+id/itemStockCount"
+                android:showAsAction="always"
+                android:title="Stock Count"/>
+            <item
+                android:id="@+id/itemSalesOrder"
+                android:showAsAction="always"
+                android:title="Sales Order"/>
+            <item
+                android:id="@+id/itemCashSales"
+                android:showAsAction="always"
+                android:title="Cash Sales"/>
+            <item
+                android:id="@+id/itemPayment"
+                android:showAsAction="always"
+                android:title="Payment"/>
+            <item
+                android:id="@+id/itemDisplay"
+                android:showAsAction="always"
+                android:title="Display"/>
+            <item
+                android:id="@+id/itemAcknowLedge"
+                android:showAsAction="always"
+                android:title="Acknowledge"/>
+        </menu>
+    </item>
+
+</menu>
