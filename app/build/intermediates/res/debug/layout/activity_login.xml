@@ -50,6 +50,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="0dp"
+            android:focusableInTouchMode="true"
             android:orientation="vertical" >
 
             <ImageView
@@ -80,7 +81,9 @@
                     android:hint="@string/prompt_username"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="true" >
+
+                    </EditText>
                 <!-- Password Label -->
 
                 <TextView
@@ -125,4 +128,4 @@
         android:gravity="center"
         android:text="Copyright @ 2014 by Abeo-Electra" />
 
-</merge><!-- From: file:/Users/abeo/Desktop/ABSAP1/app/src/main/res/layout/activity_login.xml -->
+</merge><!-- From: file:/Volumes/DATA/GitHub/ABSAP%20Ver2/app/src/main/res/layout/activity_login.xml -->
